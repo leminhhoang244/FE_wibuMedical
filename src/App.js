@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from '../src/components/Header/Header';
+import Footer from '../src/components/Footer/Footer';
+import HomeContent from '../src/components/HomeContent/HomeContent';
+import CategoryDetail from '../src/components/CategoryDetail/CategoryDetail';
+import AdvisorDetail from '../src/components/AdvisorDetail/AdvisorDetail';
+import BMICalculator from '../src/components/BMICalculator/BMICalculator';
+import OvulationCalculator from '../src/components/OvulationCalculator/OvulationCalculator';
+import PostDetail from '../src/components/PostDetail/PostDetail';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+          <PostDetail />
+      <Footer />
+    </>
   );
 }
 
