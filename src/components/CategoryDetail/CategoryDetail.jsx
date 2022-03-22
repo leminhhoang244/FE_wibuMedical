@@ -1,61 +1,138 @@
-import React from 'react';
+import React from "react";
 
 function CategoryDetail() {
-    return (
-        <>
-            <section class="section blog-wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-12 mb-5">
-                                    <div class="single-blog-item">
-                                        <img src="images/blog/blog-1.jpg" alt="" class="img-fluid" />
-                                        <div class="blog-item-content mt-5">
-                                            <div class="blog-item-meta mb-3">
-                                                <span class="text-color-2 text-capitalize mr-3"><i class="icofont-book-mark mr-2"></i> Equipment</span>
-                                            </div> 
-                                            <h2 class="mb-4 text-md"><a href="blog-single.html">Những Nguyên Nhân Gây Cận Mắt</a></h2>
-                                            <p class="lead mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem, nam voluptate in beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure officia nihil nemo, repudiandae itaque similique praesentium non aut nesciunt facere nulla, sequi sunt nam temporibus atque earum, ratione, labore.</p>								
-                                            <p class="lead mb-4 font-weight-normal text-black">The same is true as we experience the emotional sensation of stress from our first instances of social rejection ridicule. We quickly learn to fear and thus automatically.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos animi laborum iusto expedita sapiente.</p>				
-                                        </div>
-                                    </div>
-                                </div>		
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="sidebar-wrap pl-lg-4 mt-5 mt-lg-0">
-                                <div class="sidebar-widget search  mb-3 ">
-                                    <h5>Tìm Kiếm</h5>
-                                    <form action="#" class="search-form">
-                                        <input type="text" class="form-control" placeholder="Thông tin bệnh" />
-                                        <i class="ti-search"></i>
-                                    </form>
-                                </div>
-                                <div class="sidebar-widget latest-post mb-3">
-                                    <h5>Các Mục Bệnh Khác</h5>
-                                    <div class="py-2">
-                                        <h6 class="my-2"><a href="#">Đục thủy tinh thể</a></h6>
-                                        <p><a href="thongtinchuyengia.html">Tham vấn y khoa bác sĩ</a></p>
-                                    </div>
-                                    <div class="py-2">
-                                        <h6 class="my-2"><a href="#">Đục thủy tinh thể</a></h6>
-                                        <p><a href="thongtinchuyengia.html">Tham vấn y khoa bác sĩ</a></p>
-                                    </div>
-                                    <div class="py-2">
-                                        <h6 class="my-2"><a href="#">Đục thủy tinh thể</a></h6>
-                                        <p><a href="thongtinchuyengia.html">Tham vấn y khoa bác sĩ</a></p>
-                                    </div>       
-                                </div>		
-                            </div>
-                        </div>   
-                    </div>
+  return (
+    <>
+      <section className="section service-2">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7 text-center">
+              <div className="section-title">
+                <h2>Mắt</h2>
+                <div className="divider mx-auto my-4" />
+                <p>
+                  Mắt là cơ quan của hệ thống thị giác. Cơ quan này cung cấp cho
+                  sinh vật sống tầm nhìn, khả năng tiếp nhận và xử lý chi tiết
+                  hình ảnh, cũng như cho phép một số chức năng phản ứng ảnh độc
+                  lập với tầm nhìn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
                 </div>
-            </section>
-        </>
-    )
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 ">
+              <div className="department-block mb-5">
+                <img
+                  src="images/service/service-1.jpg"
+                  alt=""
+                  className="img-fluid w-100"
+                />
+                <div className="content">
+                  <h4 className="mt-4 mb-2 title-color">
+                    <a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a>
+                  </h4>
+                  <p className="mb-4">
+                    Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải
+                    được chăm chút và bảo vệ để luôn sáng ngời sức sống
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default CategoryDetail;

@@ -6,12 +6,12 @@ import AdvisorDetail from '../src/components/AdvisorDetail/AdvisorDetail';
 import BMICalculator from '../src/components/BMICalculator/BMICalculator';
 import OvulationCalculator from '../src/components/OvulationCalculator/OvulationCalculator';
 import PostDetail from '../src/components/PostDetail/PostDetail';
-
+import Post from '../src/components/Post/Post';
 function App() {
   return (
     <>
       <Header />
-          <PostDetail />
+          <AdvisorDetail />
       <Footer />
     </>
   );
