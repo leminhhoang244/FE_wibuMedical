@@ -138,6 +138,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 2px solid #223a66;
   background: transparent;
   color: #223a66;
+  
 }
 
 .btn-solid-border:hover {

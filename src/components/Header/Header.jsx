@@ -54,6 +54,11 @@ function Header() {
                     Trang Chủ
                   </a>
                 </li>
+                <li className="nav-item active">
+                  <a className="nav-link" href="index.html">
+                    Trang phụ
+                  </a>
+                </li>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"

@@ -26,6 +26,9 @@ function Post() {
   <section className="section1 service-2">
     <div className="container">
       <div className="row">
+        
+        
+        
         <div className="col-lg-4 col-md-6 ">
           <div className="department-block mb-5">
             <img src="images/service/service-1.jpg" alt="" className="img-fluid w-100" />
@@ -40,34 +43,12 @@ function Post() {
             <img src="images/service/service-1.jpg" alt="" className="img-fluid w-100" />
             <div className="content">
               <h4 className="mt-4 mb-2 title-color"><a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a></h4>
-              <p className="mb-4"><a href="#">Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống</a></p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 ">
-          <div className="department-block mb-5">
-            <img src="images/service/service-1.jpg" alt="" className="img-fluid w-100" />
-            <div className="content">
-              <h4 className="mt-4 mb-2 title-color"><a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a></h4>
-              <p className="mb-4"><a href="#">Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống</a></p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 ">
-          <div className="department-block mb-5">
-            <img src="images/service/service-1.jpg" alt="" className="img-fluid w-100" />
-            <div className="content">
-              <h4 className="mt-4 mb-2 title-color"><a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a></h4>
-              <p className="mb-4"><a href="#">Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống</a></p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 ">
-          <div className="department-block mb-5">
-            <img src="images/service/service-1.jpg" alt="" className="img-fluid w-100" />
-            <div className="content">
-              <h4 className="mt-4 mb-2 title-color"><a href="#">5 “tuyệt chiêu” giữ cho đôi mắt khỏe đẹp</a></h4>
-              <p className="mb-4"><a href="#">Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống</a></p>
+              <p className="mb-4"><a href="#">Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống.
+              Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống
+              Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống
+              Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống
+              Đôi mắt chính là cửa sổ tâm hồn, vì thế đôi mắt cần phải được chăm chút và bảo vệ để luôn sáng ngời sức sống
+              </a></p>
             </div>
           </div>
         </div>
