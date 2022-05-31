@@ -1,9 +1,9 @@
-import React from "react";
-
+import React from 'react';
+import "./ManagementAccountType.css";
 function ManagementAccountType() {
-  return (
-    <div>
-      <div className="containerss">
+    return (
+        <div>
+            <div className="containerss">
         <form action="">
           <div className="frm_MaUser">
             <div className="input-box">
@@ -63,8 +63,8 @@ function ManagementAccountType() {
           </div>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    );
 }
 
 export default ManagementAccountType;

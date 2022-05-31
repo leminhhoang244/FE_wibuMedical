@@ -1,6 +1,5 @@
 .table{
     margin-left: 20px;
-    width: 800px;
 }
 .containerss{
     max-width: 900px;
@@ -30,7 +29,7 @@ span{
     position: absolute;
     right: 11px;
 }
-#input_TenBenh{
+#input_tenbenh{
     position: absolute;
     left: 123px;
 }

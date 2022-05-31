@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./ManagementDisease.css";
 function ManagementDisease() {
   return (
     <div>
@@ -9,7 +9,7 @@ function ManagementDisease() {
             <div className="input-box">
               <span className="details">Mã bệnh</span>
               <input
-                id="input_maBV"
+                id="input_maBenh"
                 className="input_container"
                 type="text"
                 placeholder=""
@@ -20,7 +20,7 @@ function ManagementDisease() {
             <div className="input-box">
               <span className="details">Tên bệnh</span>
               <input
-                id="input_Tenbenh"
+                id="input_tenbenh"
                 className="input_container"
                 type="text"
                 placeholder=""
