@@ -19,10 +19,10 @@ function Admin() {
           </ul>
         </div>
         <div className="w-1000">
-        {/* <ManagementAccount></ManagementAccount> */}
+        <ManagementAccount></ManagementAccount>
         {/* <ManagementAccountType></ManagementAccountType> */}
           {/* <UserList></UserList> */}
-          <ManagementDisease></ManagementDisease>
+          {/* <ManagementDisease></ManagementDisease> */}
           <div className="button_Container">
         <div className="divAllButton">
           <div className="button_Them">

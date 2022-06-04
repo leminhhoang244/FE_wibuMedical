@@ -4,6 +4,75 @@ import "./style.css";
 function UserList() {
   return (
     <div>
+      
+      <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead className="title">
+                <tr>
+                  <th>Mã người dùng</th>
+                  <th>Họ tên</th>
+                  <th>Sđt</th>
+                  <th>Email</th>
+                  <th>Địa chỉ</th>
+                  <th>Giới tính</th>
+                  <th>Ngày sinh</th>
+                  <th>Ảnh</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>001</td>
+                  <td>Lam Dang Khoa</td>
+                  <td>0708058388</td>
+                  <td>lamdangkhoa@gmail.com</td>
+                  <td>05- Nguyen Hoang - Da Nang</td>
+                  <td>Nam</td>
+                  <td>24/04/2000</td>
+                  <td>link file ảnh abcdxyz.jpg</td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Lam Dang Khoa</td>
+                  <td>0708058388</td>
+                  <td>lamdangkhoa@gmail.com</td>
+                  <td>05- Nguyen Hoang - Da Nang</td>
+                  <td>Nam</td>
+                  <td>24/04/2000</td>
+                  <td>link file ảnh abcdxyz.jpg</td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Lam Dang Khoa</td>
+                  <td>0708058388</td>
+                  <td>lamdangkhoa@gmail.com</td>
+                  <td>05- Nguyen Hoang - Da Nang</td>
+                  <td>Nam</td>
+                  <td>24/04/2000</td>
+                  <td>link file ảnh abcdxyz.jpg</td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Lam Dang Khoa</td>
+                  <td>0708058388</td>
+                  <td>lamdangkhoa@gmail.com</td>
+                  <td>05- Nguyen Hoang - Da Nang</td>
+                  <td>Nam</td>
+                  <td>24/04/2000</td>
+                  <td>link file ảnh abcdxyz.jpg</td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Lam Dang Khoa</td>
+                  <td>0708058388</td>
+                  <td>lamdangkhoa@gmail.com</td>
+                  <td>05- Nguyen Hoang - Da Nang</td>
+                  <td>Nam</td>
+                  <td>24/04/2000</td>
+                  <td>link file ảnh abcdxyz.jpg</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
       <div className="containerss">
             <form action="">
               <div className="frm_MaUser ">
@@ -91,78 +160,14 @@ function UserList() {
                     type="file"
                   />
                 </div>
+                <div className="khuon-anh">
+                </div>
               </div>
+              
             </form>
           </div>
 
-          <div class="table-responsive">
-            <table class="table table-bordered">
-              <thead className="title">
-                <tr>
-                  <th>Mã người dùng</th>
-                  <th>Họ tên</th>
-                  <th>Sđt</th>
-                  <th>Email</th>
-                  <th>Địa chỉ</th>
-                  <th>Giới tính</th>
-                  <th>Ngày sinh</th>
-                  <th>Ảnh</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>001</td>
-                  <td>Lam Dang Khoa</td>
-                  <td>0708058388</td>
-                  <td>lamdangkhoa@gmail.com</td>
-                  <td>05- Nguyen Hoang - Da Nang</td>
-                  <td>Nam</td>
-                  <td>24/04/2000</td>
-                  <td>link file ảnh abcdxyz.jpg</td>
-                </tr>
-                <tr>
-                  <td>001</td>
-                  <td>Lam Dang Khoa</td>
-                  <td>0708058388</td>
-                  <td>lamdangkhoa@gmail.com</td>
-                  <td>05- Nguyen Hoang - Da Nang</td>
-                  <td>Nam</td>
-                  <td>24/04/2000</td>
-                  <td>link file ảnh abcdxyz.jpg</td>
-                </tr>
-                <tr>
-                  <td>001</td>
-                  <td>Lam Dang Khoa</td>
-                  <td>0708058388</td>
-                  <td>lamdangkhoa@gmail.com</td>
-                  <td>05- Nguyen Hoang - Da Nang</td>
-                  <td>Nam</td>
-                  <td>24/04/2000</td>
-                  <td>link file ảnh abcdxyz.jpg</td>
-                </tr>
-                <tr>
-                  <td>001</td>
-                  <td>Lam Dang Khoa</td>
-                  <td>0708058388</td>
-                  <td>lamdangkhoa@gmail.com</td>
-                  <td>05- Nguyen Hoang - Da Nang</td>
-                  <td>Nam</td>
-                  <td>24/04/2000</td>
-                  <td>link file ảnh abcdxyz.jpg</td>
-                </tr>
-                <tr>
-                  <td>001</td>
-                  <td>Lam Dang Khoa</td>
-                  <td>0708058388</td>
-                  <td>lamdangkhoa@gmail.com</td>
-                  <td>05- Nguyen Hoang - Da Nang</td>
-                  <td>Nam</td>
-                  <td>24/04/2000</td>
-                  <td>link file ảnh abcdxyz.jpg</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          
 
       
     </div>

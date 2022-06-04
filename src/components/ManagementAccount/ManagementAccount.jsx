@@ -4,6 +4,34 @@ import "./style.css";
 function ManagementAccount() {
   return (
     <div>
+      
+
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead className="title">
+            <tr>
+              <th>Tên đăng nhập</th>
+              <th>Mật Khẩu</th>
+              <th>Mã người dùng</th>
+              <th>Mã loại tài khoản</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>leminhhoang</td>
+              <td>*********</td>
+              <td>001</td>
+              <td>mã loại tài khoản</td>
+            </tr>
+            <tr>
+              <td>leminhhoang</td>
+              <td>*********</td>
+              <td>001</td>
+              <td>mã loại tài khoản</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="containerss">
         <form action="">
           <div className="frm_MaUser">
@@ -52,34 +80,6 @@ function ManagementAccount() {
           </div>
         </form>
       </div>
-
-      <div class="table-responsive">
-        <table class="table table-bordered">
-          <thead className="title">
-            <tr>
-              <th>Tên đăng nhập</th>
-              <th>Mật Khẩu</th>
-              <th>Mã người dùng</th>
-              <th>Mã loại tài khoản</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>leminhhoang</td>
-              <td>*********</td>
-              <td>001</td>
-              <td>mã loại tài khoản</td>
-            </tr>
-            <tr>
-              <td>leminhhoang</td>
-              <td>*********</td>
-              <td>001</td>
-              <td>mã loại tài khoản</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      
     </div>
   );
 }

@@ -1,5 +1,7 @@
 .table{
     margin-left: 20px;
+    margin-top: 10px;
+
 }
 .containerss{
     max-width: 900px;
@@ -8,40 +10,43 @@
     margin-left: 20px;
 }
 .containers form .frm_MaUser{
-    width: 300px;
+    width: 500px;
     display: inline-block;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .input-box{
-    max-width: 280px;
-    position: relative;
+   width: 100%;
+   margin-bottom: 10px;
 }
 .input_container{
     border-radius: 3px;
     border-color: rgba(234, 243, 243, 0.61);
     height: 30px !important;
+    margin-left: 10px;
+    max-width: 40%;
 }
 span{
     padding-right: 8px;
+    width: 15%;
+    display: inline-block;
 }
-#input_tenDN{
-    position: absolute;
-    width: 163px;
-    right: -10px;
+/* #input_tenDN{
+    
+    width:50%;
+    
 }
 #input_password{
     position: absolute;
     right: -10px;
 }
 #input_maND{
-    position: absolute;
-    right: -10px;
-    width: 163px;;
+    
 }
 #input_maLoaiTK{
     position: absolute;
     right: -10px;
-}
+} */
 thead, tbody{
     text-align: center;
 }
