@@ -1,5 +1,6 @@
 import React from "react";
-import "./ManagementAccount.css";
+import "./style.css";
+
 function ManagementAccount() {
   return (
     <div>
@@ -78,19 +79,7 @@ function ManagementAccount() {
           </tbody>
         </table>
       </div>
-      <div className="button_Container">
-        <div className="divAllButton">
-          <div className="button_Them">
-            <button>Thêm</button>
-          </div>
-          <div className="button_Them">
-            <button>Sửa</button>
-          </div>
-          <div className="button_Them">
-            <button>Xóa</button>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

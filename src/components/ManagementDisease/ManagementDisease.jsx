@@ -1,5 +1,5 @@
 import React from "react";
-import "./ManagementDisease.css";
+import "./style.css";
 function ManagementDisease() {
   return (
     <div>
